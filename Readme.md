@@ -29,13 +29,15 @@ There are different scenarios in order to identify that the implemented logic do
 ## How to compile
 
 Because the application uses Maven, you can use maven lifecycles to get the application binaries.
-You can use: ***mvn clean compile*** to get the binaries doing a cleanup in order to grantee no old classes will be included.
+At the application root's folder where the *pom.xml* file is located, you can use the maven command as follows: 
+***mvn clean compile*** to get the binaries doing a cleanup in order to grantee no old classes will be included.
 
 ## How to run tests
 
-In order to run the test scenarios you can use ***mvn test***
+In order to run the test scenarios you can use ***mvn test*** running the command at the application root folder.  
 
 ## How to run the application
 
-The default packaging of the application is a JAR file, and you can get it using de maven command ***mvn package***
-Once you've got the JAR file, you can use the Java command to run the application: **java -jar Celebrity-1.0-SNAPSHOT.jar**
+The default packaging of the application is a JAR file, and you can get it using de maven command ***mvn clean compile assembly:single***
+which will generate the Celebrity-1.0-SNAPSHOT.jar file with its dependencies.
+Once you've got the JAR file, you can use the Java command to run the application as follows: **java -jar Celebrity-1.0-SNAPSHOT.jar**
