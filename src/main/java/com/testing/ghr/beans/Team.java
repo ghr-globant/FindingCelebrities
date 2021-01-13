@@ -1,9 +1,8 @@
-package com.testing.ghr;
+package com.testing.ghr.beans;
 
+import com.testing.ghr.beans.Person;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,9 +10,6 @@ import java.util.List;
 /**
  * Class used to represent a team, that is an array of People
  */
-@Getter
-@Setter
-@NoArgsConstructor
 @AllArgsConstructor
 public class Team {
 
@@ -23,8 +19,7 @@ public class Team {
      * @return The current person's name. San Francisco
      */
     @Getter
-    @Setter
-    private String name = null;
+    private final String name;
 
     /**
      * The people that integrates the team
@@ -32,7 +27,6 @@ public class Team {
      * @return The current team members
      */
     @Getter
-    @Setter
     private List<Person> members = new ArrayList<>();
 
 }

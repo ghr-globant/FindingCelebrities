@@ -1,4 +1,4 @@
-package com.testing.ghr;
+package com.testing.ghr.error;
 
 /**
  * Exception used to identify that a team have no members so is not a team. A team of none is no team.

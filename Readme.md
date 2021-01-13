@@ -1,15 +1,18 @@
-# Find Celebriy App
+# Find Celebrity Component
 
 ## Purpose
 
-This application has the purpose to show how the application finds a celebrity in different environments.
+This component has the purpose to find a celebrity within a team in different environments.
+
+## Testing
+
 The celebrity used for this exercise is named "Michael Jackson" and there are some other people named John Doe, 
 Sam Smith, Mark Doe and Martha Wilkinson.
 
 The other people involved are related within each other, but the celebrity does not have any connections, 
 that will be the key to find within the different teams that group people to find witch one is the celebrity.
 
-## Scenarios
+## Testing Scenarios
 
 There are different scenarios in order to identify that the implemented logic does work for all the possible ones.
 
@@ -17,7 +20,9 @@ There are different scenarios in order to identify that the implemented logic do
 * A team with no members
 * A team with only one member that is not the celebrity
 * A team with only one member that is the celebrity
-* A team with no celebrities 
+* A team with no celebrities
+* A team with more than one celebrities that throws an exception because of the configuration
+* A team with more than one celebrities that will return the first found that presents a warining
 
 ## Technologies used
 

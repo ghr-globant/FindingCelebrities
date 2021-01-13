@@ -1,0 +1,16 @@
+2021-01-13 11:22:50,404 DEBUG c.t.g.FindCelebrityApp [main] findTheCelebrity Team: com.testing.ghr.Team@60dcc9fe
+2021-01-13 11:22:50,410 DEBUG c.t.g.FindCelebrityApp [main] findTheCelebrity at team: Detroit
+2021-01-13 11:22:50,423 DEBUG c.t.g.FindCelebrityApp [main] findTheCelebrity Team: com.testing.ghr.Team@56a6d5a6
+2021-01-13 11:22:50,423 DEBUG c.t.g.FindCelebrityApp [main] findTheCelebrity at team: Pittsburgh
+2021-01-13 11:22:50,424 DEBUG c.t.g.FindCelebrityApp [main] findTheCelebrity Team: com.testing.ghr.Team@4445629
+2021-01-13 11:22:50,424 DEBUG c.t.g.FindCelebrityApp [main] findTheCelebrity at team: Oklahoma
+2021-01-13 11:22:50,426 DEBUG c.t.g.FindCelebrityApp [main] findTheCelebrity Team: com.testing.ghr.Team@25d250c6
+2021-01-13 11:22:50,426 DEBUG c.t.g.FindCelebrityApp [main] findTheCelebrity at team: Dallas
+2021-01-13 11:22:50,434 DEBUG c.t.g.FindCelebrityApp [main] findTheCelebrity Team: com.testing.ghr.Team@1a04f701
+2021-01-13 11:22:50,434 DEBUG c.t.g.FindCelebrityApp [main] findTheCelebrity at team: Oklahoma
+2021-01-13 11:22:50,439 WARN c.t.g.FindCelebrityApp [main] More than one celebrity was found for team Oklahoma. Total number of celebrities found 2
+2021-01-13 11:22:50,445 DEBUG c.t.g.FindCelebrityApp [main] findTheCelebrity Team: com.testing.ghr.Team@647fd8ce
+2021-01-13 11:22:50,445 DEBUG c.t.g.FindCelebrityApp [main] findTheCelebrity Team: com.testing.ghr.Team@78aab498
+2021-01-13 11:22:50,446 DEBUG c.t.g.FindCelebrityApp [main] findTheCelebrity at team: New York
+2021-01-13 11:22:50,446 DEBUG c.t.g.FindCelebrityApp [main] findTheCelebrity Team: com.testing.ghr.Team@1ffe63b9
+2021-01-13 11:22:50,447 DEBUG c.t.g.FindCelebrityApp [main] findTheCelebrity at team: Texas

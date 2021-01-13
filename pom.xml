@@ -60,7 +60,7 @@
                     <appendAssemblyId>false</appendAssemblyId>
                     <archive>
                         <manifest>
-                            <mainClass>com.testing.ghr.FindCelebrityApp</mainClass>
+                            <mainClass>com.testing.ghr.FindCelebrityComponent</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
