@@ -21,8 +21,8 @@ There are different scenarios in order to identify that the implemented logic do
 * A team with only one member that is not the celebrity
 * A team with only one member that is the celebrity
 * A team with no celebrities
-* A team with more than one celebrities that throws an exception because of the configuration
-* A team with more than one celebrities that will return the first found that presents a warining
+* A team with more than one celebrity that throws an exception because of the configuration
+* A team with more than one celebrity that will return the first found that presents a warining
 
 ## Technologies used
 
