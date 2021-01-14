@@ -71,10 +71,6 @@ public class FindCelebrityComponent {
      * @return True if the person is a celebrity, otherwise false
      */
     private boolean isCelebrity(Person celebrity, Team team, int celebrities) {
-        long count = team.getMembers().stream().filter(
-            p -> p.getConnections() != null && p.getConnections().contains(celebrity)
-        ).count();
-
         return team.getMembers().stream().filter(
             p -> p.getConnections() != null && p.getConnections().contains(celebrity)
         ).count() == team.getMembers().size() - celebrities;
